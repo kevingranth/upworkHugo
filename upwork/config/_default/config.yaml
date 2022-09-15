@@ -1,0 +1,22 @@
+baseURL : http://localhost:8888/
+# for xml output
+languageCode : en-us
+# for website
+defaultContentLanguage: en-us
+title : SmartBear
+# alternate copyright company text
+copyright: Web Design Inc - By ....
+# controls number of pages displayed on list pages
+paginate: 20
+# controls the summary length on list pages and for the meta description tag (length in words). 
+# Recommendation 150 words.
+summaryLength: 70
+# this is required so that Hugo will render markdown to HTML
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  defaultDescription: "We Eat All Addresses of Local"
+  dateFormat: "02/01/2006"

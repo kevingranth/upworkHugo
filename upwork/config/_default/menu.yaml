@@ -1,0 +1,13 @@
+# menu links via config file: Shift + TAB to format left side
+main:
+- name: Bootstrap Docs
+  url: https://getbootstrap.com/docs/5.2/getting-started/introduction/
+  weight: 90
+  params:
+    blank: true
+- name: GitHub Repos
+  url: https://github.com/fewsteps?tab=repositories
+  weight: 100
+  params:
+    blank: true
+

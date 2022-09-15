@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- <html lang="en"> -->
+<html lang="{{ .Lang }}" class="no-js">
+
+</html>
+
+<head>
+    {{- partial "head.html" . -}}
+</head>
+
+
+<body>
+    <header>
+        {{- partial "header.html" . -}}
+    </header>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9 mb-3">
+                <main>
+                    {{ block "main" . }}{{ end }}
+                </main>
+            </div>
+            <div class="col-md-3 mb-3">
+                SideBar - Coming soon
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        {{- partial "footer.html" . -}}
+    </footer>
+    {{ partial "scriptFooter.html" . }}
+
+</body>
+
+</html>

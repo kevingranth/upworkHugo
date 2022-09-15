@@ -1,0 +1,23 @@
+{{ define "main" }}
+
+<section class="bg-primary text-center py-5 mb-4">
+    <div class="container">
+        {{ partial "title" . }}
+</section>
+
+
+<section class="main">
+    <div class=" container">
+        <div class="row">
+            <div class="col">
+
+                <div class="py-3">{{ .Content }}</div>
+
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ end }}
